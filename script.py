@@ -7,11 +7,12 @@ def encode_file(file_path):
         encoded_string = encoded_bytes.decode("utf-8")
         return encoded_string
 
-# Usage example
-file_path = "test.png"
+#set the full path of the file that you need to decode
+file_path = ""
+
 encoded_file = encode_file(file_path)
 
-#define your credentials - in production store the in as env variables
+#define your credentials - don't use them directly into production
 usertoken = ""
 apptoken = ""
 recordId = int("")
