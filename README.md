@@ -1,5 +1,11 @@
 # Quickbase XML API_UploadFile python script
 
+## How to run the script
+
+##### 1. Download the latest version of python: https://www.python.org/downloads/
+##### 2. Make sure that you add Python to the PATH
+##### 3. For upload you need to add the details directly to the script and run it from the terminal. To download the file just run the script from terminal and follow the steps.
+
 ## Script Flow
 
 ### 1. Encodes a file to base64 format
